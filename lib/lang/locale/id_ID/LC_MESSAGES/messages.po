@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-03 13:01+0700\n"
-"PO-Revision-Date: 2010-04-03 13:32+0700\n"
+"POT-Creation-Date: 2010-04-04 12:52+0700\n"
+"PO-Revision-Date: 2010-04-04 12:53+0700\n"
 "Last-Translator: sulf <sulfan@gmail.com>\n"
 "Language-Team: Arie Nugraha; Hendro Wicaksono; Wardiyono <dicarve@yahoo.com; hendrowicaksono@yahoo.com; wynerst@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -208,6 +208,8 @@ msgstr "Daftar Koleksi Keluar"
 #: admin/modules/bibliography/item.php:194
 #: admin/modules/bibliography/item_barcode_generator.php:201
 #: admin/modules/bibliography/item_barcode_generator.php:203
+#: admin/modules/bibliography/p2p.php:190
+#: admin/modules/bibliography/p2p.php:192
 msgid "Search"
 msgstr "Pencarian"
 
@@ -273,6 +275,7 @@ msgstr "Antrian pencetakan dihapus!"
 msgid "There is no data to print!"
 msgstr "Tidak ada data untuk dicetak!"
 
+#: admin/modules/bibliography/dl_print.php:195
 #: admin/modules/bibliography/dl_print.php:204
 msgid "Labels Printing"
 msgstr "Pencetakan Label"
@@ -403,6 +406,12 @@ msgstr "Mulai dari rekod ke"
 msgid "Attachment removed!"
 msgstr "Lampiran dihapus!"
 
+#: admin/modules/bibliography/iframe_attach.php:112
+#: admin/modules/bibliography/index.php:443
+#, fuzzy
+msgid "File Attachments"
+msgstr "Lampiran"
+
 #: admin/modules/bibliography/iframe_author.php:61
 msgid "Author succesfully removed!"
 msgstr "Penanggung Jawab/Author berhasil dihapus!"
@@ -425,6 +434,12 @@ msgstr "Item berhasil hapus!"
 #: admin/modules/bibliography/item.php:178
 msgid "Item FAILED to removed!"
 msgstr "Item GAGAL hapus!"
+
+#: admin/modules/bibliography/iframe_item_list.php:107
+#: admin/modules/bibliography/index.php:354
+#, fuzzy
+msgid "Items/Copies"
+msgstr "Total Item/Kopi"
 
 #: admin/modules/bibliography/import.php:45
 #: admin/modules/bibliography/item_import.php:45
@@ -561,6 +576,11 @@ msgid "Add New Items"
 msgstr "Tambah Data Koleksi"
 
 #: admin/modules/bibliography/index.php:359
+#, fuzzy
+msgid "Authors/Roles"
+msgstr "Pengarang"
+
+#: admin/modules/bibliography/index.php:359
 msgid "Add Author(s)"
 msgstr "Tambah Data Pengarang"
 
@@ -607,6 +627,11 @@ msgstr "Kolasi"
 #: admin/modules/bibliography/index.php:414
 msgid "Series Title"
 msgstr "Judul Seri"
+
+#: admin/modules/bibliography/index.php:418
+#, fuzzy
+msgid "Subjects/Topics"
+msgstr "Tambah Subyek Baru"
 
 #: admin/modules/bibliography/index.php:418
 msgid "Add Subject(s)"
@@ -780,6 +805,7 @@ msgstr "Harga"
 msgid "You are going to edit Item data"
 msgstr "Anda akan memperbaharui data Item"
 
+#: admin/modules/bibliography/item_barcode_generator.php:190
 #: admin/modules/bibliography/item_barcode_generator.php:198
 msgid "Item Barcodes Printing"
 msgstr "Cetak Barcode Koleksi"
@@ -812,6 +838,11 @@ msgstr "Fasiltas Import"
 #, fuzzy
 msgid "Import for item data from CSV file"
 msgstr "Fasilitas Impor data anggota dari berkas CSV"
+
+#: admin/modules/bibliography/p2p.php:194
+#, fuzzy
+msgid "* Please make sure you have a working Internet connection."
+msgstr "* Pastikan anda memiliki koneksi Internet yang bekerja."
 
 #: admin/modules/bibliography/pop_attach.php:82
 msgid "Upload FAILED! Forbidden file type or file size too big!"
@@ -953,45 +984,55 @@ msgid "Grab Bibliographic Data from Z3950 Web Services"
 msgstr "Ambil Data Bibliografi/Katalog dari layanan Z3950"
 
 #: admin/modules/bibliography/submenu.php:31
+#, fuzzy
+msgid "P2P Service"
+msgstr "Layanan Z3950"
+
+#: admin/modules/bibliography/submenu.php:31
+#, fuzzy
+msgid "Grab Bibliographic Data from Other SLiMS Web Services"
+msgstr "Ambil Data Bibliografi/Katalog dari layanan Z3950"
+
+#: admin/modules/bibliography/submenu.php:32
 msgid "Print Document Labels"
 msgstr "Pencetakan Label Dokumen"
 
-#: admin/modules/bibliography/submenu.php:32
+#: admin/modules/bibliography/submenu.php:33
 msgid "Print Item Barcodes"
 msgstr "Cetak Barcode Koleksi"
 
-#: admin/modules/bibliography/submenu.php:33
+#: admin/modules/bibliography/submenu.php:34
 msgid "Import Data"
 msgstr "Impor Data"
 
-#: admin/modules/bibliography/submenu.php:33
+#: admin/modules/bibliography/submenu.php:34
 msgid "Import Data to Bibliographic Database from CSV file"
 msgstr "Impor Data Bibliografi dari file CSV"
 
-#: admin/modules/bibliography/submenu.php:34
+#: admin/modules/bibliography/submenu.php:35
 msgid "Export Data"
 msgstr "Ekspor Data"
 
-#: admin/modules/bibliography/submenu.php:34
+#: admin/modules/bibliography/submenu.php:35
 msgid "Export Bibliographic Data To CSV format"
 msgstr "Ekspor Data Bibliografi ke Format CSV"
 
-#: admin/modules/bibliography/submenu.php:35
+#: admin/modules/bibliography/submenu.php:36
 #, fuzzy
 msgid "Item Import"
 msgstr "Item ID"
 
-#: admin/modules/bibliography/submenu.php:35
+#: admin/modules/bibliography/submenu.php:36
 #, fuzzy
 msgid "Import Data to Item/Copies database from CSV file"
 msgstr "Impor Data Bibliografi dari file CSV"
 
-#: admin/modules/bibliography/submenu.php:36
+#: admin/modules/bibliography/submenu.php:37
 #, fuzzy
 msgid "Item Export"
 msgstr "Daftar Koleksi"
 
-#: admin/modules/bibliography/submenu.php:36
+#: admin/modules/bibliography/submenu.php:37
 #, fuzzy
 msgid "Export Item/Copies data To CSV format"
 msgstr "Ekspor Data Bibliografi ke Format CSV"
@@ -999,11 +1040,6 @@ msgstr "Ekspor Data Bibliografi ke Format CSV"
 #: admin/modules/bibliography/ucs_upload.php:28
 msgid "UCS is not enabled! Change global system configuration to enable UCS"
 msgstr "UCS tidak aktif! Ubah konfigurasi sistem untuk mengaktifkan UCS"
-
-#: admin/modules/bibliography/z3950.php:338
-#, fuzzy
-msgid "* Please make sure you have a working Internet connection."
-msgstr "* Pastikan anda memiliki koneksi Internet yang bekerja."
 
 #: admin/modules/circulation/circulation_action.php:46
 msgid "ERROR! Loan data can't be saved to database"
@@ -1131,9 +1167,6 @@ msgid "Member Email"
 msgstr "Email Anggota"
 
 #: admin/modules/circulation/circulation_action.php:454
-#: admin/modules/circulation/loan_rules.php:168
-#: admin/modules/circulation/loan_rules.php:215
-#: admin/modules/circulation/loan_rules.php:222
 msgid "Member Type"
 msgstr "Tipe Keanggotaan"
 
@@ -1235,8 +1268,6 @@ msgstr "Anda akan memperbaharui data denda"
 
 #: admin/modules/circulation/index.php:38
 #: admin/modules/circulation/loan.php:34
-#: admin/modules/circulation/loan_rules.php:40
-#: admin/modules/circulation/loan_rules.php:131
 msgid "You don't have enough privileges to view this section"
 msgstr "Anda tidak memiliki hak untuk mengakses ke bagian ini"
 
@@ -1327,6 +1358,7 @@ msgid "Loan Rules FAILED to Save. Please Contact System Administrator"
 msgstr "Aturan Peminjaman GAGAL Disimpan. Hubungi System Administrator Untuk Pemecahannya"
 
 #: admin/modules/circulation/loan_rules.php:117
+#: admin/modules/circulation/submenu.php:26
 msgid "Loan Rules"
 msgstr "Aturan Peminjaman"
 
@@ -1472,7 +1504,6 @@ msgid "Author Data FAILED to Save. Please Contact System Administrator"
 msgstr "Data tipe koleksi GAGAL disimpan. Hubungi admin sistem untuk pemecahannya"
 
 #: admin/modules/master_file/author.php:119
-#: admin/modules/master_file/submenu.php:27
 msgid "Author"
 msgstr "Pengarang"
 
@@ -1493,7 +1524,6 @@ msgstr "Jenis Pengarang"
 #: admin/modules/master_file/author.php:169
 #: admin/modules/master_file/author.php:190
 #: admin/modules/master_file/author.php:195
-#: admin/modules/master_file/submenu.php:23
 msgid "Authority Files"
 msgstr "Daftar Terkendali"
 
@@ -1555,7 +1585,6 @@ msgid "Language Data FAILED to Save. Please Contact System Administrator"
 msgstr "Data Bahasa GAGAL Disimpan. Hubungi admin sistem untuk pemecahannya"
 
 #: admin/modules/master_file/doc_language.php:120
-#: admin/modules/master_file/submenu.php:34
 msgid "Doc. Language"
 msgstr "Bahasa Dok."
 
@@ -1745,7 +1774,6 @@ msgid "Label Data FAILED to Save. Please Contact System Administrator"
 msgstr "Label GAGAL Disimpan. Hubungi admin sistem untuk pemecahannya"
 
 #: admin/modules/master_file/label.php:157
-#: admin/modules/master_file/submenu.php:35
 msgid "Label"
 msgstr "Label"
 
@@ -1838,7 +1866,6 @@ msgid "Place Data FAILED to Save. Please Contact System Administrator"
 msgstr "Data Tempat GAGAL Disimpan. Hubungi admin sistem untuk pemecahannya"
 
 #: admin/modules/master_file/place.php:117
-#: admin/modules/master_file/submenu.php:31
 msgid "Place"
 msgstr "Tempat"
 
@@ -1853,7 +1880,6 @@ msgstr "Daftar Tempat"
 #: admin/modules/master_file/place.php:160
 #: admin/modules/master_file/place.php:177
 #: admin/modules/master_file/place.php:180
-#: admin/modules/master_file/submenu.php:31
 msgid "Place Name"
 msgstr "Nama-nama Tempat"
 
@@ -1916,6 +1942,10 @@ msgid "Document Authors"
 msgstr "Pengarang Dokumen"
 
 #: admin/modules/master_file/submenu.php:28
+#: admin/modules/master_file/topic.php:120
+#: admin/modules/master_file/topic.php:163
+#: admin/modules/master_file/topic.php:189
+#: admin/modules/master_file/topic.php:194
 msgid "Subject"
 msgstr "Subyek"
 
@@ -2219,6 +2249,7 @@ msgstr "Ditemukan"
 msgid "from your search with keyword"
 msgstr "dari kata kunci"
 
+#: admin/modules/membership/member_card_generator.php:188
 #: admin/modules/membership/member_card_generator.php:196
 #: admin/modules/membership/submenu.php:28
 msgid "Member Card Printing"
@@ -2443,7 +2474,6 @@ msgid "record each page"
 msgstr "rekod setiap halamannya"
 
 #: admin/modules/reporting/report_dbgrid.inc.php:83
-#: admin/modules/reporting/customs/class_recap.php:255
 msgid "Print Current Page"
 msgstr "Cetak Halaman ini"
 
@@ -2468,10 +2498,25 @@ msgid "Other Reports"
 msgstr "Laporan Lain"
 
 #: admin/modules/reporting/customs/class_recap.php:53
+#: admin/modules/reporting/customs/customs_report_list.inc.php:23
 msgid "Custom Recapitulations"
 msgstr "Rekapitulasi"
 
 #: admin/modules/reporting/customs/class_recap.php:53
+#: admin/modules/reporting/customs/fines_report.php:64
+#: admin/modules/reporting/customs/item_titles_list.php:54
+#: admin/modules/reporting/customs/item_usage.php:53
+#: admin/modules/reporting/customs/loan_by_class.php:49
+#: admin/modules/reporting/customs/loan_history.php:53
+#: admin/modules/reporting/customs/member_list.php:55
+#: admin/modules/reporting/customs/member_loan_list.php:54
+#: admin/modules/reporting/customs/overdued_list.php:54
+#: admin/modules/reporting/customs/reserve_list.php:53
+#: admin/modules/reporting/customs/staff_act.php:53
+#: admin/modules/reporting/customs/titles_list.php:54
+#: admin/modules/reporting/customs/visitor_list.php:55
+#: admin/modules/reporting/customs/visitor_report.php:49
+#: admin/modules/reporting/customs/visitor_report_day.php:64
 msgid "Report Filter"
 msgstr "Filter Laporan"
 
@@ -2480,14 +2525,46 @@ msgid "Recap By"
 msgstr "Rekap berdasar"
 
 #: admin/modules/reporting/customs/class_recap.php:70
+#: admin/modules/reporting/customs/fines_report.php:95
+#: admin/modules/reporting/customs/item_titles_list.php:123
+#: admin/modules/reporting/customs/item_usage.php:83
+#: admin/modules/reporting/customs/loan_by_class.php:101
+#: admin/modules/reporting/customs/loan_history.php:108
+#: admin/modules/reporting/customs/member_list.php:113
+#: admin/modules/reporting/customs/member_loan_list.php:87
+#: admin/modules/reporting/customs/overdued_list.php:87
+#: admin/modules/reporting/customs/reserve_list.php:92
+#: admin/modules/reporting/customs/staff_act.php:70
+#: admin/modules/reporting/customs/titles_list.php:122
+#: admin/modules/reporting/customs/visitor_list.php:103
+#: admin/modules/reporting/customs/visitor_report.php:67
+#: admin/modules/reporting/customs/visitor_report_day.php:95
 msgid "Apply Filter"
 msgstr "Terapkan Filter"
 
 #: admin/modules/reporting/customs/class_recap.php:72
+#: admin/modules/reporting/customs/item_titles_list.php:124
+#: admin/modules/reporting/customs/loan_history.php:109
+#: admin/modules/reporting/customs/member_list.php:114
+#: admin/modules/reporting/customs/member_loan_list.php:88
+#: admin/modules/reporting/customs/overdued_list.php:88
+#: admin/modules/reporting/customs/reserve_list.php:93
+#: admin/modules/reporting/customs/staff_act.php:71
+#: admin/modules/reporting/customs/titles_list.php:123
+#: admin/modules/reporting/customs/visitor_list.php:104
 msgid "Show More Filter Options"
 msgstr "Tunjukan Filter Lebih Banyak"
 
 #: admin/modules/reporting/customs/class_recap.php:72
+#: admin/modules/reporting/customs/item_titles_list.php:124
+#: admin/modules/reporting/customs/loan_history.php:109
+#: admin/modules/reporting/customs/member_list.php:114
+#: admin/modules/reporting/customs/member_loan_list.php:88
+#: admin/modules/reporting/customs/overdued_list.php:88
+#: admin/modules/reporting/customs/reserve_list.php:93
+#: admin/modules/reporting/customs/staff_act.php:71
+#: admin/modules/reporting/customs/titles_list.php:123
+#: admin/modules/reporting/customs/visitor_list.php:104
 msgid "Hide Filter Options"
 msgstr "Sembunyikan Pilihan Filter"
 
@@ -2900,6 +2977,7 @@ msgid "Visitor Report"
 msgstr "Laporan Lain"
 
 #: admin/modules/serial_control/index.php:50
+#: admin/modules/serial_control/submenu.php:23
 msgid "Serial Control"
 msgstr "Terbitan Berseri"
 
@@ -3326,6 +3404,7 @@ msgid "User Data FAILED to Save. Please Contact System Administrator"
 msgstr "Data Pengguna Baru GAGAL Disimpan. Hubungi admin sistem untuk pemecahannya"
 
 #: admin/modules/system/app_user.php:159
+#: admin/modules/system/submenu.php:32
 msgid "System Users"
 msgstr "Pengguna Aplikasi"
 
@@ -3359,6 +3438,12 @@ msgstr "Salinan Pangkalan Data"
 msgid "Start New Backup"
 msgstr "Mulai Salinan Baru"
 
+#: admin/modules/system/barcode_generator.php:83
+#: admin/modules/system/barcode_generator.php:113
+#: admin/modules/system/submenu.php:36
+msgid "Barcode Generator"
+msgstr "Pembuat Barcode"
+
 #: admin/modules/system/barcode_generator.php:98
 msgid "Error creating barcode!"
 msgstr "GAGAL mencetak Barcode!"
@@ -3366,11 +3451,6 @@ msgstr "GAGAL mencetak Barcode!"
 #: admin/modules/system/barcode_generator.php:103
 msgid "Barcode generation finished"
 msgstr "Pencetakan Barcode selesai"
-
-#: admin/modules/system/barcode_generator.php:113
-#: admin/modules/system/submenu.php:36
-msgid "Barcode Generator"
-msgstr "Pembuat Barcode"
 
 #: admin/modules/system/barcode_generator.php:113
 msgid "Type barcodes text to one or more text field below and click"
@@ -3814,7 +3894,6 @@ msgid "You are going to edit Group data"
 msgstr "Anda akan meng-edit data kelompok"
 
 #: lib/admin_logon.inc.php:64
-#: lib/member_logon.inc.php:59
 msgid "Error authenticating user and password to database"
 msgstr "Otentikasi user dan password error"
 
@@ -3869,8 +3948,8 @@ msgid "Currently On Loan (Due on"
 msgstr "Sedang dipinjam (jatuh tempo"
 
 #: lib/contents/item_list.php:67
-msgid "Unavailable"
-msgstr "Tidak Tersedia"
+msgid "Available but not for loan"
+msgstr "Tersedia, tapi tidak untuk dipinjamkan"
 
 #: lib/contents/login.inc.php:48
 msgid "Please supply valid username and password"
@@ -4063,10 +4142,12 @@ msgid "Date"
 msgstr "Tanggal"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:95
+#: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:87
 msgid "Delete Record"
 msgstr "Hapus Rekod"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:96
+#: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:88
 msgid "Cancel"
 msgstr "Batal"
 
@@ -4224,6 +4305,9 @@ msgstr "Bantuan"
 #, fuzzy
 msgid "Quick Search"
 msgstr "Pencarian"
+
+#~ msgid "Unavailable"
+#~ msgstr "Tidak Tersedia"
 
 #~ msgid "copies at"
 #~ msgstr "kopi terdapat di"
